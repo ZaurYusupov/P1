@@ -24,7 +24,7 @@ RoSA was built with certain required parameters and its creation and customizati
 - Entrepreneur takes in customer shopping lists and shops for them in the pega platform.
   - Automated shopping by utilizing the order information and other client information stored in the database
   - RoSA records the expenses in a receipt and emails that to the client
-  - RoSA records the Pega shopping expenses, also records the Pega order confirmation number and adds to the total a flat service fee for RoSA services
+  - RoSA records the Pega shopping expenses, also records the Pega order confirmation number and adds to the total a flat service fee for RoSA services.
     Shopping receipt is a dynamic preformatted excel sheet, with additional sheet showing the shoppers original order form
   - Consumer/user friendly formatting, custom logo added for visual impact
 
