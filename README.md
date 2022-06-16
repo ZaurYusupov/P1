@@ -9,6 +9,12 @@ RoSA was built with certain required parameters and its creation and customizati
 
 ## RoSA, Robotic Shopping Assistant
 
+
+### Tech Stack
+
+- UiPath
+- SQLServer
+
 ### Project Scope
 
 - 1 vendor : [Pega](https://training.openspan.com/login)
@@ -35,7 +41,4 @@ RoSA was built with certain required parameters and its creation and customizati
   - Profit report is a dynamic preformatted excel sheet
   - Consumer/user friendly formatting, custom logo added for visual impact
 
-### Tech Stack
 
-- UiPath
-- SQLServer
