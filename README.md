@@ -1,44 +1,27 @@
-P1
+# Project Description
 
-# Hello World!
-Robotic shopping assistants rule! 
-
-The automation you will read about below is referred to as RoSA.
-
-RoSA was built with certain required parameters and its creation and customization plays into a simulation scenario.  The scenario is simple enough, a well known regional vendor "Pega" signed an exclusive partnership deal with "RoSA" operator entrepreneur who provides shopping services to a select clientele (i.e an instacart shopper). To be able to focus on servicing clients, the entrepreneur deploys RoSA to shop and to help manage their records.
-
-## RoSA, Robotic Shopping Assistant
+RoSA is your robotic shopping assistant, here to help you automate your shopping business. RoSA helps you shop for all your customers from online vendors. It provides customers individual expense reports sent via email.
 
 
-### Tech Stack
+# Technologes Used
 
-- UiPath
-- SQLServer
+- UiPath Studio
+- Azure Data Studio
+- SQL Server
+- Microsoft Excel
 
-### Project Scope
-
-- 1 vendor : [Pega](https://training.openspan.com/login)
-- 5 customers with 5 different credit cards and addresses
-- Each shopping has at least 5 items
-- Customer info is stored in DB
-- Expense reports in excel and unique per customer
-- Profit report in excel format
-- Used both flowchart and sequence type workflows
 
 ### Functionalities
 
-- Entrepreneur takes in customer shopping lists and shops for them in the pega platform.
-  - Automated shopping by utilizing the order information and other client information stored in the database
-  - RoSA records the expenses in a receipt and emails that to the client
-  - RoSA records the Pega shopping expenses, also records the Pega order confirmation number and adds to the total a flat service fee for RoSA services.
-    Shopping receipt is a dynamic preformatted excel sheet, with additional sheet showing the shoppers' original order form
-  - Consumer/user friendly formatting, custom logo added for visual impact
-
-- RoSA builds a profit report for the entrepreneur
-  - Profit report contains: comissions from selling for Pega, showing both the percent value and the dollar value
-  - FYI pega pays the entrepreneur 20% of the subtotal per shopping trip
-  - Profit report separates out customers
-  - Profit report is a dynamic preformatted excel sheet
-  - Consumer/user friendly formatting, custom logo added for visual impact
+  - RoSA buys items on Pega platform after downloading the shopper's info and their shopping list from the database
+  - RoSA dynamically records the expenses in a preformatted receipt and emails that to shoppers and a profit report to RoSA operator
 
 
+# Getting Started
+
+- Open file main.xaml in UiPath Studio 
+- Click on Debug File button to begin automation
+
+# License
+
+- The project uses the following license https://github.com/ZaurYusupov/P1/blob/main/LICENSE
