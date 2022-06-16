@@ -14,7 +14,8 @@ RoSA is your robotic shopping assistant, here to help you automate your shopping
 ### Functionalities
 
   - RoSA buys items on Pega platform after downloading the shopper's info and their shopping list from the database
-  - RoSA dynamically records the expenses in a preformatted receipt and emails that to shoppers and a profit report to RoSA operator
+  - RoSA dynamically records the expenses in a preformatted receipt and emails that to shoppers 
+  - RoSA dynamically records the profits and expenses related to each shopper in a preformatted receipt and emails a profit report to RoSA operator
 
 
 # Getting Started
